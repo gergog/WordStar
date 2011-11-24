@@ -1,0 +1,17 @@
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<Spinner android:layout_height="wrap_content" android:id="@+id/Spinner01" android:layout_width="wrap_content" android:layout_below="@+id/filenameedit" android:layout_alignLeft="@+id/filenameedit" android:layout_alignRight="@+id/filenameedit">
+	</Spinner>
+	<CheckBox android:id="@+id/mergecheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/Spinner01" android:text="Merge" android:layout_alignLeft="@+id/Spinner01" android:layout_alignRight="@+id/Spinner01"></CheckBox><Button android:text="Create" android:id="@+id/load" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/Spinner01" android:layout_toRightOf="@+id/Spinner01">
+	</Button>
+	
+	
+	<TextView android:id="@+id/text" android:layout_height="wrap_content" android:text="Dictionary name" android:layout_alignParentTop="true" android:layout_width="match_parent"></TextView>
+
+
+<EditText android:text="filename" android:layout_height="wrap_content" android:id="@+id/filenameedit" android:layout_below="@+id/text" android:layout_alignLeft="@+id/text" android:layout_width="220dp"></EditText>
+<TextView android:text="filenamestatus" android:layout_width="wrap_content" android:id="@+id/filestatus" android:layout_height="wrap_content" android:layout_toRightOf="@+id/filenameedit" android:layout_alignTop="@+id/filenameedit" android:layout_alignBottom="@+id/filenameedit"></TextView>
+
+
+</RelativeLayout>

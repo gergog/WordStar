@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:padding="6dip"
+    android:id="@+id/sentences">
+            
+        <CheckedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" 
+            android:id="@+id/englishsentence"
+            android:singleLine="false"
+            android:ellipsize="marquee"
+        />
+        <CheckedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" 
+            android:id="@+id/hungariansentence"
+            android:singleLine="false"
+            android:ellipsize="marquee"
+        />
+    
+</LinearLayout>

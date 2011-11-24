@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="Search">
+<CheckBoxPreference android:key="AutoSearch" android:title="Auto search on" android:summary="Switch on/off the automatic search"></CheckBoxPreference><EditTextPreference android:summary="Start search automatically within " android:title="Auto search time out" android:key="AutoSearchTimer" android:defaultValue="1000" android:numeric="integer"></EditTextPreference>
+
+
+</PreferenceCategory><PreferenceCategory android:title="Storage">
+		<EditTextPreference android:summary="This folder contains the dictionary folders" android:defaultValue="/sdcard/dict/" android:title="Dictionary folder" android:selectable="true" android:key="dictfolder">
+		</EditTextPreference>
+	
+<EditTextPreference android:summary="Default dictionary to load" android:title="Default dictionary" android:key="defaultDict"></EditTextPreference>
+
+</PreferenceCategory><PreferenceCategory android:summary="Start automatically activities at start-up" android:title="Auto start" android:key="autostart"><CheckBoxPreference android:summary="Load the last dictionary after start-up" android:defaultValue="false" android:key="autoloadlast" android:title="Auto load last dictionary"></CheckBoxPreference>
+</PreferenceCategory>
+</PreferenceScreen>

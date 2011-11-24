@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+  <Button android:id="@+id/createdicbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create dictionary..." />
+  <Button android:id="@+id/loaddicbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load dictionary..." android:layout_gravity="left"/>
+  <Button android:id="@+id/dicbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dictionary..." android:layout_gravity="left"/>
+</TableLayout>
+
+

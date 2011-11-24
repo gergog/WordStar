@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="5px">
+
+	<Button android:layout_height="wrap_content" android:id="@+id/Button01"
+		android:padding="5px" android:layout_width="wrap_content"
+		android:text="Pronounce" android:layout_above="@+id/englishEditText"
+		android:layout_alignRight="@+id/englishEditText" />
+
+	<TextView android:text="Hungarian:"
+		android:layout_marginBottom="5px" android:id="@+id/hungarian"
+		android:minHeight="10px" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_below="@+id/englishEditText"
+		android:layout_alignLeft="@+id/englishEditText"
+		android:layout_alignRight="@+id/englishEditText" />
+
+	<EditText android:id="@+id/hungarianEditText"
+		android:singleLine="false" android:text="hungarian"
+		android:layout_height="wrap_content" android:layout_below="@+id/hungarian"
+		android:layout_alignLeft="@+id/hungarian" android:layout_width="match_parent" />
+	
+	<Button android:layout_height="wrap_content" android:id="@+id/Button02" 
+		android:padding="5px" android:layout_width="wrap_content" android:text="Pronounce" 
+		android:layout_below="@+id/hungarianEditText" 
+		android:layout_alignRight="@+id/hungarianEditText"></Button>
+	<EditText android:layout_height="wrap_content" android:singleLine="false" android:minHeight="25px" android:text="english sentence" android:scrollHorizontally="true" android:id="@+id/englishSentenceEditText" android:layout_width="match_parent" android:layout_below="@+id/Button02" android:layout_alignRight="@+id/Button02"></EditText>
+	<TextView android:text="Example:"
+		android:layout_marginBottom="5px" android:id="@+id/englishSentence"
+		android:layout_below="@+id/hungarianEditText"
+		android:layout_alignLeft="@+id/hungarianEditText"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	
+	
+	
+
+	<TextView android:text="English:" android:layout_marginBottom="5px"
+		android:id="@+id/english" android:minHeight="20px"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_alignParentTop="true" />
+
+
+
+
+
+
+
+
+
+	<EditText android:layout_height="wrap_content"
+		android:singleLine="false" android:text="english" android:id="@+id/englishEditText"
+		android:gravity="fill_horizontal" android:layout_width="match_parent"
+		android:layout_below="@+id/english" android:layout_alignLeft="@+id/english" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

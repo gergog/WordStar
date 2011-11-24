@@ -1,0 +1,24 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	
+
+    <item android:menuCategory="container" android:id="@+id/handlingdicmenu" android:title="Dictionary handling">
+        <menu>
+            <item android:title="Load from file" android:menuCategory="container" android:id="@+id/loadfilemenu"></item>
+            <item android:title="Load last" android:menuCategory="container" android:id="@+id/loadlastmenu"></item>
+            <item android:title="Create dictionary" android:menuCategory="container" android:id="@+id/createdictionarymenu"></item>
+        </menu>
+    
+    </item>
+    <item android:title="Browse dictionary..." android:menuCategory="container" android:id="@+id/browsedicmenu">
+    </item>
+    <item android:title="Search" android:id="@+id/search" android:menuCategory="container">
+    </item>
+    <item android:title="Settings" android:menuCategory="container" android:id="@+id/settingsmenu">
+    </item>
+
+
+
+
+</menu>
